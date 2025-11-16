@@ -2,19 +2,61 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Stellar Chains - HTML5 Puzzle Game
 
-This contains everything you need to run your app locally.
+An addictive HTML5 puzzle game where you link chains of colorful stars to forge constellations. Master the grid, create massive combos, and race against the clock in this vibrant cosmic adventure.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1X2djnNHkKuAU_rqvQqPdggtdpcVu97Mb
+## Features
+
+- 🌟 Addictive chain-matching gameplay
+- 🎨 Vibrant cosmic visuals
+- ⚡ Fast-paced action
+- 📱 Responsive design
+- 🎮 Touch and mouse controls
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Create a `.env.local` file (copy from `.env.example`):
+   ```bash
+   cp .env.example .env.local
+   ```
+
+3. Add your Gemini API key to `.env.local`:
+   ```
+   GEMINI_API_KEY=your_api_key_here
+   ```
+   Get your API key from: https://aistudio.google.com/app/apikey
+
+4. Run the app:
+   ```bash
+   npm run dev
+   ```
+
+5. Open http://localhost:3000 in your browser
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist` folder.
+
+## Documentation
+
+- [Game Overview](docs/GAME-OVERVIEW.md)
+- [Game Mechanics](docs/GAME-MECHANICS.md)
+- [Technical Architecture](docs/TECHNICAL-ARCHITECTURE.md)
+- [Deployment Guide](docs/DEPLOYMENT-GUIDE.md)
+- [API Reference](docs/API-REFERENCE.md)
+
+## License
+
+Created by codebyart
