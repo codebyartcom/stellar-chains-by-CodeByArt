@@ -1,7 +1,5 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
+<<<<<<< HEAD
 # Stellar Chains - HTML5 Puzzle Game
 
 An addictive HTML5 puzzle game where you link chains of colorful stars to forge constellations. Master the grid, create massive combos, and race against the clock in this vibrant cosmic adventure.
@@ -60,3 +58,5 @@ The built files will be in the `dist` folder.
 ## License
 
 Created by codebyart
+=======
+>>>>>>> 3803b4d4d7bfef8720c53d00f3c17b191fee486f
